@@ -14,3 +14,18 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 767px) {
+  .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .nav {
+    font-size: 15px;
+  }
+}

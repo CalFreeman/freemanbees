@@ -4,7 +4,7 @@ const Footer = () => (
   <footer>
     <div className="container">
       <a href="/" className="logo-font">
-        FreemanBees
+        FREEMAN BEES
       </a>
       <span className="attribution">
         BEE &amp; HONEY BUSINESS. 

@@ -1,6 +1,8 @@
 import Head from "next/head";
 import React from "react";
+
 import Layout from "../components/common/Layout";
+//import "styles.css";
 
 const MyApp = ({ Component, pageProps }:{Component:any, pageProps:any}) => (
   <>
