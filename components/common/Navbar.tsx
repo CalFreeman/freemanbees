@@ -11,7 +11,7 @@ const Navbar = () => {
           <span >SimpleBee</span>
         </CustomLink>
         <ul className="nav navbar-nav pull-xs-right">
-         <li className="nav-item">
+          <li className="nav-item">
             <NavLink href="/" as="/">
               <span>Home</span>
             </NavLink>
