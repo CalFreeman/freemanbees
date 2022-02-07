@@ -30,7 +30,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to FreemanBees!
+          Welcome to FreemanBeees!
         </h1>
 
         <p className={styles.description}>

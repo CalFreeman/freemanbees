@@ -5,12 +5,12 @@ import NavLink from "./NavLink";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-light">
+    <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
           <span >SimpleBee</span>
         </CustomLink>
-        <ul className="nav navbar-nav pull-xs-right">
+        <ul className="navbar-menu">
           <li className="nav-item">
             <NavLink href="/" as="/">
               <span>Home</span>
@@ -19,6 +19,11 @@ const Navbar = () => {
           <li className="nav-item">
             <NavLink href="/" as="/">
               <span>Honey</span>
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink href="/" as="/">
+              <span>About</span>
             </NavLink>
           </li>
           <li className="nav-item">
