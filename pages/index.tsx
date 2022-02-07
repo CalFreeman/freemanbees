@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       </Head>
 
       <div className="home-page">
-      <Banner />
+        <Banner/>
       <div className="container page">
         <div className="row">
           <MainView />

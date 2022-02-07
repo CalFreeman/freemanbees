@@ -33,6 +33,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <button className="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
   );
 };
