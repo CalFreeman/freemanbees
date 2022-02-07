@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
-          <span >SimpleBee</span>
+          <span >SimpleBeee</span>
         </CustomLink>
         <ul className="navbar-menu">
           <li className="nav-item">
