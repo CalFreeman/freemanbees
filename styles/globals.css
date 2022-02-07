@@ -1,7 +1,9 @@
 :root {
-  --primary: rgb(0, 245, 253); 
-  --light: rgb(0, 162, 255);
-  --dark: rgb(51, 116, 255);
+  --primary: #F49A23; 
+  --secondary: #475153;
+  --tertiary: #646d71;
+  --light: #F5C622;
+  --dark: #F5C622;
 }
 
 * {
@@ -33,10 +35,9 @@ nav {
   z-index: 99;
   background-color: var(--dark);
   padding: 16px 32px;
-  opacity: 0.65;
+  opacity: 0.95;
 }
 .navbar-brand{
-  color: rgb(245, 239, 158);
   font-size: 28px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -44,6 +45,8 @@ nav {
 }
 .navbar-menu{
   /*display: none;*/
+  list-style-type: none;
+
 }
 
 .nav-item{
@@ -89,7 +92,7 @@ nav {
 .banner{
   padding-top: 115px;
   text-align: center;
-  color: rgb(13, 185, 134);
+  color: var(--primary);
   display: block;
   position: relative;
 
