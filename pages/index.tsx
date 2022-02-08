@@ -30,7 +30,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to FreemanBeees!
+          Welcome to FreemanBees!
         </h1>
 
         <p className={styles.description}>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        <a> SIMPLEBEE /f </a>
+        <a> SIMPLEBEE </a>
       </footer>
     </div>
   )
