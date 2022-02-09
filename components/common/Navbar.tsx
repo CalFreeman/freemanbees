@@ -9,9 +9,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
-          <span >Logo</span>
+          <img src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
+
         </CustomLink>
-        <img src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
 
         <ul className="navbar-menu">
           <li className="nav-item">

@@ -88,7 +88,7 @@ nav {
 
 .hamburger:hover span:nth-child(2) {
   transform: translate(10px);
-  background-color: var(--light);
+  background-color: var(--dark);
 }
 
 .hamburger.is-active span:nth-child(1){
@@ -106,12 +106,26 @@ nav {
 
 
 /* ---Banner--- */
-.banner{
-  padding-top: 115px;
+.banner-container{
   text-align: center;
-  color: var(--primary);
-  display: block;
-  position: relative;
+  color: var(--secondary);
+  background-image: -webkit-linear-gradient(-85deg, rgb(255, 255, 255) 50%, var(--light) 50%);
+  width: 100%;
+  padding: 105px;
+  margin-top: 100px;
 
 }
+
+.banner{
+  align-items: center;
+}
 /*** ---END Banner--- ***/
+
+/*** ---END Footer--- ***/
+.footer {
+  background-color: var(--secondary);
+  min-height: 4vh;
+  text-align: center;
+  padding-top: 1vh;
+}
+/*** ---END Footer--- ***/

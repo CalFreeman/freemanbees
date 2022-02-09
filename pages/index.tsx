@@ -2,10 +2,10 @@ import Head from 'next/head'
 import React from "react";
 
 import type { NextPage } from 'next'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Banner from "../components/home/Banner";
 import MainView from "../components/home/MainView";
+import Footer from '../components/common/Footer';
 
 
 
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          A Bee &amp; Honey Business.
+          A Bee &amp; Honey Company.
         </p>
 
         <div className={styles.grid}>
