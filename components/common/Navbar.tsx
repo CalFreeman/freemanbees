@@ -1,3 +1,4 @@
+import { BlockList } from "net";
 import React from "react";
 
 import CustomLink from "./CustomLink";
@@ -8,8 +9,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
-          <span >SimpleBeee</span>
+          <img src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
+
         </CustomLink>
+
         <ul className="navbar-menu">
           <li className="nav-item">
             <NavLink href="/" as="/">
@@ -37,12 +40,12 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+        <button className="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
       </div>
-      <button className="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </nav>
   );
 };

@@ -1,15 +1,13 @@
 import React from "react";
 
 const Footer = () => (
-  <footer>
-    <div className="container">
+  <footer className="footer">
       <a href="/" className="logo-font">
         FREEMAN BEES
       </a>
       <span className="attribution">
-        BEE &amp; HONEY BUSINESS. 
+        BEE &amp; HONEY COMPANY. 
       </span>
-    </div>
   </footer>
 );
 
