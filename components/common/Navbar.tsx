@@ -10,11 +10,12 @@ const Navbar = () => {
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
           <img src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
-
+          <a>freeman</a>
+          <a>bees</a>
         </CustomLink>
 
         <ul className="navbar-menu">
-          <li className="nav-item">
+          <li className="nav-item is-active">
             <NavLink href="/" as="/">
               <span>About</span>
             </NavLink>
@@ -40,7 +41,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <button className="hamburger">
+        <button className="hamburger is-active">
         <span></span>
         <span></span>
         <span></span>

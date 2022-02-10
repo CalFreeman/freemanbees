@@ -94,16 +94,31 @@ nav {
 .hamburger.is-active span:nth-child(1){
   transform: translate(0px, -2px) rotate(45deg);
 }
-.hamburger.is-active span:nth-child(3){
-  transform: translate(-3px, 3px) rotate(-45deg);
-}
+
 .hamburger.is-active span:nth-child(2){
   opacity: 0;
   transform: translate(15px)
 }
+
+.hamburger.is-active span:nth-child(3){
+  transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.hamburger:hover span{
+  background-color: var(--dark);
+}
 /* END Navbar-Hamburger */
 /*** ---END Navbar--- ***/
 
+@media (min-width: 768px){
+  .hamburger{
+    display: none;
+  }
+  .navbar-menu{
+    display: block;
+  }
+
+}
 
 /* ---Banner--- */
 .banner-container{
