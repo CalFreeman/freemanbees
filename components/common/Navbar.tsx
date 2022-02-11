@@ -10,14 +10,15 @@ hamburger?.addEventListener('click', function(this: any) {
   this.classList.toggle('is-active')
 })
 
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
-          <img src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
-          <a>freeman</a>
-          <a>bees</a>
+          <img className="navlogoimg" src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
+          <a className="brand-a" >freeman</a>
+
         </CustomLink>
 
         <ul className="navbar-menu">
