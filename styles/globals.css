@@ -4,6 +4,7 @@
   --tertiary: #646d71;
   --light: #F5C622;
   --dark: #F49A23;
+  --dash: #f69c55;
 }
 
 * {
@@ -15,11 +16,11 @@
 /* ---Navbar--- */
 .navbar{
   position: fixed;
+  
 }
 .container{
   max-width: 1200px;
   margin: 0 auto;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,18 +42,51 @@ nav {
   font-weight: 900;
   letter-spacing: 1px;
   text-transform: uppercase;
+
+}
+
+.brand-a{
+  display: inline-block;
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+  color: var(--secondary);
+  margin: 0 -16px;
+
+}
+
+.navlogoimg{
+  max-width: 150%;
+  max-height: 150%;
 }
 .navbar-menu{
   display: none;
   list-style-type: none;
-
+  justify-content: flex-end;
+  margin: 0 -16px;
 }
 
 .nav-item{
   padding: 5px;
   float: right;
   margin-left: 25px;
+  text-decoration:none;
 
+}
+
+.nav-item span {
+  color: var(--secondary);
+  font-weight: 600;
+  transition: 0.4s;
+  text-decoration: none;
+  padding: 2px 4px;
+  border-radius: 99px;
+  
+}
+
+.nav-item li.is-active, .nav-item:hover {
+  background-color: var(--tertiary);
 }
 
 /* Navbar-Hamburger */
@@ -107,8 +141,6 @@ nav {
 .hamburger:hover span{
   background-color: var(--dark);
 }
-/* END Navbar-Hamburger */
-/*** ---END Navbar--- ***/
 
 @media (min-width: 768px){
   .hamburger{
@@ -119,6 +151,10 @@ nav {
   }
 
 }
+
+
+/* END Navbar-Hamburger */
+/*** ---END Navbar--- ***/
 
 /* ---Banner--- */
 .banner-container{
