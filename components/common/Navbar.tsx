@@ -4,6 +4,12 @@ import React from "react";
 import CustomLink from "./CustomLink";
 import NavLink from "./NavLink";
 
+const hamburger = document.querySelector('.hamburger');
+
+hamburger?.addEventListener('click', function(this: any) {
+  this.classList.toggle('is-active')
+})
+
 const Navbar = () => {
   return (
     <nav className="navbar">
