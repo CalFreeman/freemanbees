@@ -5,10 +5,6 @@ import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import Banner from "../components/home/Banner";
 import MainView from "../components/home/MainView";
-import Footer from '../components/common/Footer';
-
-
-
 
 const Home: NextPage = () => {
   return (

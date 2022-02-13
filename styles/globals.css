@@ -13,6 +13,12 @@
   box-sizing: border-box;
 }
 
+/* /pages/*.tsx page contents */
+.coreContent{
+  position: relative;
+  padding: 110px 350px 28px 45px;
+}
+
 /* ---Navbar--- */
 .navbar{
   position: fixed;
@@ -28,50 +34,59 @@
 }
 
 nav {
+  
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
   background-color: var(--light);
-  padding: 2px 45px;
+  padding: 1px 15px;
   opacity: 0.98;
+  
 }
 .navbar-brand{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
+
+  display: flex;
+  width: 50%;
 }
 
 .navlogoimg {
   display: flex;
-  width: 55px;
-  height: 55px;
+  width: 36px;
+  height: 36px;
   margin-Top: 10px;
-  padding-Bottom: 5px;
-  border-style: dotted;
+  padding-Bottom: 5px;  
 }
 
 .brand-a{
-  border-style: dotted;
   color: var(--secondary);
+  padding-top: 11px;
+  margin: 5px;
+  
 }
 
 .navbar-menu{
   display: none;
   list-style-type: none;
   justify-content: flex-end;
-  margin: 0 -16px;
+  margin: 0 -8px;
+  
 }
 
 .nav-item{
   padding: 5px;
   float: right;
-  margin-left: 25px;
   text-decoration:none;
+  margin-left: 15px;
   color: #FFFFFF;
   text-decoration: none;
+  
 }
 
 .nav-item span {
@@ -177,5 +192,7 @@ nav {
   min-height: 4vh;
   text-align: center;
   padding-top: 1vh;
+  margin-top: 100vh;
+
 }
 /*** ---END Footer--- ***/

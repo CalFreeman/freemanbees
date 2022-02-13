@@ -1,7 +1,7 @@
 const Honey = () => {
     return (
         <div>
-            <h1>About</h1>
+            <h1 className="coreContent">Honey</h1>
             <p>Got some of this also</p>
             <p>Got some of this also</p>
             <p>Got some of this also</p>
