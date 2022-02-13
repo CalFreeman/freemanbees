@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>HOME | SIMPLEBEE </title>
         <meta name="description" content="A better kind of honey." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bee_logo.svg" />
       </Head>
 
       <div className="home-page">
@@ -34,13 +34,13 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>CardPlaceHolder1 &rarr;</h2>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className={styles.card}>
+            <h2>JoJos links &rarr;</h2>
             <p>CardPlaceHolder1 text</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>CardPlaceHolder2 &rarr;</h2>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" className={styles.card}>
+            <h2>Jennys links &rarr;</h2>
             <p>CardPlaceHolder2 text</p>
           </a>
         </div>
