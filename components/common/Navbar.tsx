@@ -4,12 +4,18 @@ import React from "react";
 import CustomLink from "./CustomLink";
 import NavLink from "./NavLink";
 
-const hamburger = document.querySelector('.hamburger');
 
-hamburger?.addEventListener('click', function(this: any) {
-  this.classList.toggle('is-active')
-})
 
+if (typeof window === 'object') {
+  // Check if document is finally loaded
+  const hamburger = document.querySelector('.hamburger');
+
+  hamburger?.addEventListener('click', function(this: any) {
+    this.classList.toggle('is-active')
+
+  })
+  
+}
 
 const Navbar = () => {
   return (
@@ -27,7 +33,7 @@ const Navbar = () => {
               <span>About</span>
             </NavLink>
           </li>
-          <li className="nav-item">
+          <li className="nav-item ">
             <NavLink href="/" as="/">
               <span>Blog</span>
             </NavLink>

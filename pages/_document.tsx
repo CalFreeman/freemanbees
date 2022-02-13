@@ -28,10 +28,6 @@ class MyDocument extends Document {
             sizes="192x192"
             href="/images/bee_logo.svg"
           />
-          <link
-            rel="stylesheet"
-            href="//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic&display=swap"
-          />
         </Head>
         <body>
           <Main />
