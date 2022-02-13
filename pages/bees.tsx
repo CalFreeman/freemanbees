@@ -1,7 +1,7 @@
 const Bees = () => {
     return (
-        <div>
-            <h1 className="coreContent">Bees</h1>
+        <div className="coreContent">
+            <h1>Bees</h1>
             <p>Yeah I got bees what of it</p>
             <p>Yeah I got bees what of it</p>
             <p>Yeah I got bees what of it</p>
