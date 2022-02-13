@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
           <img className="navlogoimg" src="images/bee_logo.svg"/>
-          <a className="brand-a" >freeman</a>
+          <a className="brand-a" >freemanbees</a>
 
         </CustomLink>
 
