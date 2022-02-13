@@ -22,29 +22,29 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
-          <img className="navlogoimg" src="images/bee_logo.svg" style={{width: "75px", height: "75px", float: "left"}}/>
+          <img className="navlogoimg" src="images/bee_logo.svg"/>
           <a className="brand-a" >freeman</a>
 
         </CustomLink>
 
         <ul className="navbar-menu">
           <li className="nav-item is-active">
-            <NavLink href="/" as="/">
+            <NavLink href="/about" as="/about">
               <span>About</span>
             </NavLink>
           </li>
           <li className="nav-item ">
-            <NavLink href="/" as="/">
+            <NavLink href="/blog" as="/blog">
               <span>Blog</span>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink href="/" as="/">
+            <NavLink href="/bees" as="/bees">
               <span>Bees</span>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink href="/" as="/">
+            <NavLink href="/honey" as="/honey">
               <span>Honey</span>
             </NavLink>
           </li>

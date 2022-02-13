@@ -34,32 +34,30 @@ nav {
   right: 0;
   z-index: 99;
   background-color: var(--light);
-  padding: 7px 32px;
+  padding: 2px 45px;
   opacity: 0.98;
 }
 .navbar-brand{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 900;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
 
+.navlogoimg {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  margin-Top: 10px;
+  padding-Bottom: 5px;
+  border-style: dotted;
 }
 
 .brand-a{
-  display: inline-block;
-  line-height: normal;
-  text-align: center;
-  vertical-align: middle;
-  padding: 30px;
+  border-style: dotted;
   color: var(--secondary);
-  margin: 0 -16px;
-
 }
 
-.navlogoimg{
-  max-width: 150%;
-  max-height: 150%;
-}
 .navbar-menu{
   display: none;
   list-style-type: none;
