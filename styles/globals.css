@@ -78,11 +78,19 @@ nav {
 }
 
 .navbar-menu{
+  display: none;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+
+.navbar-menu-hamburger{
+  
   overflow-y: scroll;
   list-style: none;
   position: fixed;
   top: 0;
-  background: darkcyan;
+  background: var(--light);
   left: 0;
   bottom: 0;
   height: 100vh;
@@ -91,9 +99,7 @@ nav {
   max-width: 290px;
   z-index: 9;
 }
-.navbar-menu.showMenu {
-  width: 100%;
-}
+
 .nav-item{
   padding: 5px;
   float: right;
@@ -151,6 +157,22 @@ nav {
 .hamburger:hover span:nth-child(2) {
   transform: translate(10px);
   background-color: var(--dark);
+}
+
+.hamburger.is-active{
+  width: 100%;
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: var(--light);
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+  
 }
 
 .hamburger.is-active span:nth-child(1){

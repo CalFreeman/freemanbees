@@ -16,12 +16,6 @@ if (typeof window === 'object') {
 
 const Navbar = () => {
 
-  const [navbarOpen, setNavbarOpen] = useState(false)
-
-  const handleToggle = () => {
-    setNavbarOpen(prev => !prev)
-  }
-
   return (
     <nav className="navbar">
       <div className="container">
@@ -30,10 +24,9 @@ const Navbar = () => {
           <a className="brand-a" >freemanbees</a>
         </CustomLink>
 
-        <button onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</button>
-        <Hamburger></Hamburger>
+        <Hamburger ></Hamburger>
 
-        <ul className={`navbar-menu ${navbarOpen ? " showMenu" : ""}`}>
+        <ul className="navbar-menu">
           <li className="nav-item is-active">
             <NavLink href="/about" as="/about">
               <span>About</span>
