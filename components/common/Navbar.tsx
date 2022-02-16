@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useState } from "react"
 
 import CustomLink from "./CustomLink";
 import NavLink from "./NavLink";
 import Hamburger from "./Hamburger";
-
 
 if (typeof window === 'object') {
   // Check if document is finally loaded
@@ -13,20 +12,28 @@ if (typeof window === 'object') {
     this.classList.toggle('is-active')
 
   })
-  
 }
 
 const Navbar = () => {
+
+  const [navbarOpen, setNavbarOpen] = useState(false)
+
+  const handleToggle = () => {
+    setNavbarOpen(prev => !prev)
+  }
+
   return (
     <nav className="navbar">
       <div className="container">
         <CustomLink className="navbar-brand" href="/" as="/">
           <img className="navlogoimg" src="images/bee_logo.svg"/>
           <a className="brand-a" >freemanbees</a>
-
         </CustomLink>
 
-        <ul className="navbar-menu">
+        <button onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</button>
+        <Hamburger></Hamburger>
+
+        <ul className={`navbar-menu ${navbarOpen ? " showMenu" : ""}`}>
           <li className="nav-item is-active">
             <NavLink href="/about" as="/about">
               <span>About</span>
@@ -53,7 +60,6 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-        <Hamburger></Hamburger>
       </div>
     </nav>
   );

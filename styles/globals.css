@@ -78,13 +78,22 @@ nav {
 }
 
 .navbar-menu{
-  display: none;
-  list-style-type: none;
-  justify-content: flex-end;
-  margin: 0 -8px;
-  
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: darkcyan;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
 }
-
+.navbar-menu.showMenu {
+  width: 100%;
+}
 .nav-item{
   padding: 5px;
   float: right;
