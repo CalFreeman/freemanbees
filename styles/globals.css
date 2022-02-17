@@ -211,8 +211,15 @@ nav {
   .navbar-menu-hamburger{
     display: none;
   }
+  .navbar-menu-hamburger.showMenu{
+    display: none;
+  }
   .navbar-menu{
     display: block;
+  }
+  .nav-itemHamb{
+    display: none;
+    
   }
 
 }
