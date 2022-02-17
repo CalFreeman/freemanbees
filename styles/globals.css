@@ -107,7 +107,8 @@ nav {
   text-decoration: none;
   padding: 2px 4px;
   border-radius: 99px;
-  
+    border: dashed;
+
 }
 
 .nav-item li.is-active, .nav-item:hover {
@@ -178,7 +179,6 @@ nav {
 
 }
 .hamburger.is-active{
-  width: 5vh;
   overflow-y: scroll;
   list-style: none;
   position: fixed;
@@ -236,6 +236,7 @@ nav {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+
 }
 
 /* END Navbar-Hamburger */
@@ -272,11 +273,23 @@ nav {
   min-height: 4vh;
   text-align: center;
   padding-top: 1vh;
-  margin-top: vh;
+  margin-top: 1vh;
   position:fixed;
   bottom:0;
   left:0;
   right:0;
 
+}
+
+
+.footer.a {
+  min-height: 4vh;
+  text-align: center;
+  padding-top: 1vh;
+  margin-top: 1vh;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
 }
 /*** ---END Footer--- ***/
