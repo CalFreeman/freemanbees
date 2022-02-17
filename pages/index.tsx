@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <div className="home-page">
         <Banner/>
-      <div className="container page">
+      <div className="container page center">
         <div className="row">
           <MainView />
         </div>

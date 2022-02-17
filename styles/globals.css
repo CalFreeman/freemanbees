@@ -13,6 +13,13 @@
   box-sizing: border-box;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* /pages/*.tsx page contents */
 .coreContent{
   position: relative;
@@ -266,7 +273,10 @@ nav {
   text-align: center;
   padding-top: 1vh;
   margin-top: vh;
-  
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
 
 }
 /*** ---END Footer--- ***/
