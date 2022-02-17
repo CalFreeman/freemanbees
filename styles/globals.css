@@ -213,6 +213,12 @@ nav {
 }
 
 
+.mainV{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 /* END Navbar-Hamburger */
 /*** ---END Navbar--- ***/
 
