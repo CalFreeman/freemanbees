@@ -158,31 +158,32 @@ nav {
   width: 0;
 }
 .navbar-menu-hamburger.showMenu{
-  
-  overflow-y: scroll;
-  list-style: none;
-  position: fixed;
+  display: block;
   background: var(--light);
-  overflow: hidden;
   max-width: 290px;
   z-index: 9;
-  height: 100vh;
-
+  height: 25vh;
   width: 100%;
+  left: 0;
+  padding-top: 55px;
+  height: 100vh;
+  opacity: 1;
+
 }
 .hamburger.is-active{
-  width: 100%;
+  width: 5vh;
   overflow-y: scroll;
   list-style: none;
   position: fixed;
   background: var(--light);
   overflow: hidden;
   top: 0;
-  left: 0;
+  left: 15px;
+  padding-left: 5px;
   bottom: 0;
-  height: 100vh;
+  height: 5vh;
   max-width: 290px;
-  z-index: 9;
+  z-index: 99;
   
 }
 
@@ -209,7 +210,6 @@ nav {
   }
   .navbar-menu-hamburger{
     display: none;
-
   }
   .navbar-menu{
     display: block;
