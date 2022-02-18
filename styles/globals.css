@@ -81,6 +81,7 @@ nav {
 /* remove nav menu link underlines */
 .nav-link{
   text-decoration: none;
+  
 }
 
 .navbar-menu{
@@ -96,21 +97,21 @@ nav {
   text-decoration:none;
   margin-left: 15px;
   color: #ffffff;
-  
 }
 
 .nav-item span {
-  color: var(--light);
-  font-weight: 600;
+  color: var(--dark);
+  font-weight: 700;
   transition: 0.4s;
   padding: 3px 4px;
+  border-radius: 9px;
 
 
 }
-
 .nav-item li.is-active, .nav-item:hover {
   background-color: rgba(0, 0, 0, 0.671);
   border-radius: 9px;
+
 }
 
 /* Navbar-Hamburger */
@@ -205,6 +206,7 @@ nav {
 
 .hamburger:hover span{
   background-color: var(--dark);
+  
 }
 
 @media (min-width: 768px){
