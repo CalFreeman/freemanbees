@@ -8,15 +8,14 @@ import MainView from "../components/home/MainView";
 
 const Home: NextPage = () => {
   return (
+
     <div className={styles.container}>
       <Head>
         <title>HOME | SIMPLEBEE </title>
         <meta name="description" content="A better kind of honey." />
         <link rel="icon" href="/bee_logo.svg" />
       </Head>
-
       <div className="home-page">
-        <Banner/>
       <div className="container page center">
         <div className="row">
           <MainView />
