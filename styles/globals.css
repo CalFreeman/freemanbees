@@ -32,6 +32,7 @@
   position: fixed;
   
 }
+
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -42,15 +43,13 @@
 }
 
 nav {
-  
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: var(--light);
+  background-color: rgba(255, 255, 255, 0.815);
   padding: 1px 15px;
-  opacity: 0.98;
   
 }
 .navbar-brand{
@@ -66,8 +65,8 @@ nav {
 
 .navlogoimg {
   display: flex;
-  width: 32px;
-  height: 32px;
+  width: 33px;
+  height: 33px;
   margin-Top: 10px;
   padding-Bottom: 8px;  
 }
@@ -96,18 +95,16 @@ nav {
   float: right;
   text-decoration:none;
   margin-left: 15px;
-  color: #FFFFFF;
+  color: #ffffff;
   
 }
 
 .nav-item span {
-  color: var(--secondary);
+  color: var(--light);
   font-weight: 600;
   transition: 0.4s;
-  text-decoration: none;
-  padding: 2px 4px;
-  border-radius: 99px;
-    border: dashed;
+  padding: 3px 4px;
+
 
 }
 
@@ -117,13 +114,10 @@ nav {
 
 /* Navbar-Hamburger */
 .hamburger {
-  
   display: block;
   position: relative;
   z-index: 1;
-
   user-select: none;
-
   appearance: none;
   border: none;
   outline: none;
@@ -138,7 +132,7 @@ nav {
   margin-bottom: 5px;
   position: relative;
 
-  background-color: white;
+  background-color: black;
   border-radius: 6px;
   z-index: 1;
 
@@ -167,7 +161,7 @@ nav {
 }
 .navbar-menu-hamburger.showMenu{
   display: block;
-  background: var(--light);
+  background: white;
   max-width: 290px;
   z-index: 9;
   height: 25vh;
@@ -182,11 +176,12 @@ nav {
   overflow-y: scroll;
   list-style: none;
   position: fixed;
-  background: var(--light);
+  background: rgb(255, 255, 255);
   overflow: hidden;
   top: 0;
   left: 15px;
   padding-left: 5px;
+  padding-top: 8px;
   bottom: 0;
   height: 5vh;
   max-width: 290px;
@@ -231,11 +226,21 @@ nav {
 
 }
 
+@media (max-width: 789px){
+  .navlogoimg {
+    width: 0px;
+    height: 0px;
+  }
+
+  .brand-a{
+    margin-left: -175px;
+  }
+}
+
 
 .mainV{
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
 
 }
 
@@ -249,7 +254,8 @@ nav {
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(245,198,34,1) 100%);
   width: 100%;
-  padding: 115px;
+  padding: 65px;
+  margin-top: 50px;
   font-size: 16px;
 }
 

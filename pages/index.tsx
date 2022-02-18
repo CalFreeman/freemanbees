@@ -15,11 +15,12 @@ const Home: NextPage = () => {
         <meta name="description" content="A better kind of honey." />
         <link rel="icon" href="/bee_logo.svg" />
       </Head>
+      
       <div className="home-page">
       <div className="container page center">
-        <div className="row">
-          <MainView />
-        </div>
+
+      <MainView />
+
       </div>
     </div>
 

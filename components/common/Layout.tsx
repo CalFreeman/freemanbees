@@ -11,8 +11,8 @@ export default function Layout({ children }:{children:any}) {
     <>
       <Navbar />
       <Banner/>
-
       <main>{children}</main>
+
       <Footer />
     </>
   )
